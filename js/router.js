@@ -26,7 +26,7 @@ define([
     },
 
     routes: {
-      '': 'index'
+      '*actions': 'index'
     },
 
     index: function() {

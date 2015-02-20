@@ -20,7 +20,7 @@ define([
   Chart.Collection = Backbone.Collection.extend({
     model: Chart.Model,
 
-    url: '/inc/charts.json'
+    url: 'inc/charts.json'
   });
 
   Chart.View = Backbone.View.extend({
