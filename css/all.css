@@ -1,0 +1,47 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  color: #000;
+  font: 13px/18px Arial, sans-serif;
+}
+
+.page-width {
+  width: 960px;
+  margin: auto;
+}
+
+header,
+footer {
+  padding: 10px;
+  color: #fff;
+  background: #36c;
+  box-shadow: 0 0 5px rgba(51, 102, 204, 0.8);
+}
+
+header {
+  font-size: 24px;
+  line-height: 28px;
+}
+
+footer,
+#charts {
+  margin-top: 10px;
+}
+
+#charts:after {
+  content: "";
+  clear: both;
+  height: 0;
+  display: block;
+}
+
+.chart {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  box-sizing: border-box;
+}
